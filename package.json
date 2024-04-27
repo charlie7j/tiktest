@@ -19,8 +19,7 @@
     "react-draggable": "^4.4.6",
     "socket.io": "^4.4.1",
     "socket.io-client": "^4.7.5",
-    "tiktok-live-connector": "^1.0.0",
-    "vercel": "^32.3.0"
+    "tiktok-live-connector": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^8",
