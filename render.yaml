@@ -1,0 +1,15 @@
+services:
+  - name: nextjs-app
+    type: web
+    runtime: node
+    plan: starter
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    
+
+  - name: nodejs-app
+    type: web
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: node server.js
